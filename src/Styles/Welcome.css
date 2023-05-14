@@ -1,0 +1,46 @@
+.welcomeContainer {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.welcomeContainer img {
+    height: 80vh;
+    width: 80vh;
+    position: absolute;
+    top: 45%;
+    right: 15%;
+}
+
+.welcomeContainer section {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.welcomeContainer section button {
+    height: 10vh;
+    width: 35vh;
+    margin: 10px;
+    background: none;
+    border: 2px solid var(--universal);
+    color: var(--color);
+    font-size: 5vh;
+    font-weight: 900;
+    border-radius: 50px;
+    transition: 150ms ease-in;
+}
+
+.welcomeContainer section button:hover {
+    background: var(--universal);
+    box-shadow: 0px 0px 15px var(--universal);
+}
+
+.welcomeContainer h1 {
+    font-size: 12vh;
+    background: linear-gradient(45deg, #ffcdb2, #b5838d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+}
