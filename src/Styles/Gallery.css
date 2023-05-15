@@ -1,0 +1,42 @@
+.imageWrapper {
+    margin: 20px;
+}
+
+.imageList {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageWrapper img {
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    height: 50vh;
+    width: 50vh;
+}
+
+.galleryContainer {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color);
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--universal);
+} 
